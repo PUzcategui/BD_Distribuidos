@@ -1,0 +1,50 @@
+.user-info-container {
+  display: flex;
+  flex-direction: row;
+  width: 500px;
+  height: 350px;
+  margin: 0 auto;
+  margin-top: 50px;
+  border: 1px solid #000000;
+}
+
+.user-info-container .user-info {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 100%;
+}
+
+.user-info-container .user-info .user-info-id {
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  color: #000000;
+}
+
+.user-info-container .user-info .user-info-name {
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  color: #000000;
+}
+
+.user-info-container .user-info .user-info-department {
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  color: #000000;
+}
+
+.user-info-container .user-info .user-info-location {
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  color: #000000;
+}
+
+.user-info-container .user-image {
+  width: 50%;
+  height: 100%;
+  padding: 10% 10%;
+}
