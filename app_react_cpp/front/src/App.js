@@ -8,20 +8,19 @@ function App() {
 
     useEffect( () => { 
         const fetchData = async () => {
-            const response = await fetch('http://localhost:3306/data');
+            console.log("a2")
+            const response = await fetch('http://localhost:3307/data');
             const jsonData = await response.json();
+            console.log(jsonData)
             setData(jsonData);
         }
 
         fetchData();
     }, []);
 
-    console.log(data);
     
     return (
-        <>
-            <UserInfo userData={data[0]} />
-        </>
+        < UserInfo userData={data[0]} />  
     )
 
 };
